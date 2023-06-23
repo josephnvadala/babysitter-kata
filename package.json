@@ -1,0 +1,29 @@
+{
+  "name": "babysitter-kata",
+  "version": "1.0.0",
+  "description": "A simple console app for a Babysitter to calculate their pay",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josephnvadala/babysitter-kata.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josephnvadala/babysitter-kata/issues"
+  },
+  "homepage": "https://github.com/josephnvadala/babysitter-kata#readme",
+  "dependencies": {
+    "inquirer": "^9.2.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.5",
+    "@babel/preset-env": "^7.22.5",
+    "babel-jest": "^29.5.0",
+    "jest": "^29.5.0"
+  }
+}
