@@ -3,7 +3,7 @@ import inquirer from 'inquirer'
 import { calculateBabysitterPay } from './babysitterPayCalculator.js'
 import timeChoices from './timeChoices.js'
 
-async function askForBabysittingTimes() {
+async function calculateBabysittingPay() {
     const startTime = await inquirer.prompt({
         name: 'value',
         type: 'list',
@@ -31,6 +31,6 @@ async function askForBabysittingTimes() {
     console.log(`Your Total Pay: $${calculatedPay}`)
 }
 
-await askForBabysittingTimes();
+await calculateBabysittingPay();
 
 
